@@ -1,4 +1,5 @@
 <script setup>
+import Socials from '../components/Socials.vue';
 
 </script>
 
@@ -10,7 +11,8 @@
             <h1 class="md:m-auto font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-orange-400 to-red-500">The new era of minecraft development</h1>
         </div>
         <p class="mt-6 text-lg text-slate-600 text-center max-w-3xl mx-auto dark:text-slate-400">RocketPlugins is a freelancing team ready to empower your service or activity with our best custom products made for you and your necessities.</p>
+
+        <Socials />
     </div>
-  
 </main>
 </template>
